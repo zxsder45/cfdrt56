@@ -2,8 +2,7 @@
 
 ## 概述
 
-用于在 Heroku 上部署 vless。
-vless 性能更加优秀，占用资源更少。
+用于在 Heroku 上部署 vless。vless 性能更加优秀，占用资源更少。
 
 ## 镜像
 
