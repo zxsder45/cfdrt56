@@ -18,6 +18,8 @@
 
 ## 注意
 
-WebSocket 路径为 `/app`。
+WebSocket 路径为(配置文件中的path) `/app`。
+
+端口为443。
 
 `alterId` 为 `0`。
