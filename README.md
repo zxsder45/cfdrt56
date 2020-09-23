@@ -20,7 +20,7 @@
 
 ## 注意
 
-WebSocket 路径(配置文件中的path)为 `/app`。
+WebSocket 路径(配置文件中的`path`)为 `/app`。
 
 端口为443。
 
