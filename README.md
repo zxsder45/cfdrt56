@@ -4,7 +4,7 @@
 
 用于在 Heroku 上部署 vless。vless 性能更加优秀，占用资源更少。
 
-可以使用cloudflare的workers来中转流量，具体请自行研究。
+可以使用cloudflare的workers来`中转流量`，具体请自行研究。
 
 ## 镜像
 
@@ -20,7 +20,7 @@
 
 ## 注意
 
-WebSocket 路径(配置文件中的`path`)为 `/app`。
+`WebSocket` 路径(配置文件中的`path`)为 `/app`。
 
 端口为443。
 
