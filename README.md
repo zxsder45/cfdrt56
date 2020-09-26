@@ -34,7 +34,7 @@ addEventListener(
                 url.hostname="xxxx.xxxx.xxxx";//换成你的heroku域名  
                 let request=new Request(url,event.request);  
                 event. respondWith(  
-                        fetch(request)  
+                        >fetch(request)  
                 )  
         }  
 )  
