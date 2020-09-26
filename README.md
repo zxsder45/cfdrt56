@@ -10,19 +10,23 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FGeekNAUer%2Fvlessheroku)
 
-## ENV 设定
+## 注意
+
+### 路径
+
+`WebSocket` 路径(配置文件中的`path`)为 `/app` 。
+
+### 端口
+
+`端口` 为443。
+
+### alterId
+
+`alterId` 为 `0`。
 
 ### UUID
 
-`UUID` > `一个 UUID，供用户连接时验证身份使用`。
-
-## 注意
-
-`WebSocket` 路径(配置文件中的`path`)为 `/app`。
-
-`端口`为443。
-
-`alterId` 为 `0`。
+`UUID` 默认为 `3a53a3e5-da83-48d2-aee9-d88a498eb3dd` 可自行设置。
 
 ## 流量中转
 
