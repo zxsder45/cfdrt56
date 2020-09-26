@@ -29,7 +29,7 @@
 可以使用cloudflare的workers来`中转流量`，配置可参考：  
 
 addEventListener(  
->"fetch",event => {  
+* "fetch",event => {  
 >>let url=new URL(event.request.url);  
 >>url.hostname="xxxx.xxxx.xxxx";//换成你的heroku域名  
 >>let request=new Request(url,event.request);  
