@@ -2,7 +2,7 @@
 
 ## 概述
 
-用于在 Heroku 上部署 vless，每次部署自动选择最新的 alpine linux 和 core 。  
+用于在 Heroku 上部署 vless，每次部署自动选择最新的 alpine linux 和 v2ray core 。  
 vless 性能更加优秀，占用资源更少。
 
 ## 镜像
@@ -31,7 +31,7 @@ vless 性能更加优秀，占用资源更少。
 
 ## 流量中转
 
-可以使用cloudflare的workers来`中转流量`，配置可参考：  
+可以使用cloudflare的workers来`中转流量`，配置为：  
 
 addEventListener(  
     "fetch",event => {  
