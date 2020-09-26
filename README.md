@@ -2,7 +2,7 @@
 
 ## 概述
 
-用于在 Heroku 上部署 vless，每次部署自动选择最新的 alpine linux 和 v2ray core 。  
+用于在 Heroku 上部署 vless websocket tls，每次部署自动选择最新的 alpine linux 和 v2ray core 。  
 vless 性能更加优秀，占用资源更少。
 
 ## 镜像
