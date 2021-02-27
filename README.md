@@ -2,7 +2,7 @@
 
 ## 概述
 
-用于在 Heroku 上部署 vless+websocket+tls，每次部署自动选择最新的 alpine linux 和 v2ray core 。  
+用于在 Heroku 上部署 vless+websocket+tls，每次部署自动选择最新的 alpine linux 和 xray core 。  
 vless 性能更加优秀，占用资源更少。
 
 ## 镜像
@@ -34,12 +34,12 @@ vless 性能更加优秀，占用资源更少。
 可以使用cloudflare的workers来`中转流量`，配置为：  
 
 addEventListener(  
-    "fetch",event => {  
-        let url=new URL(event.request.url);  
-        url.hostname="xx.xxxx.xx";//你的heroku域名    
-        let request=new Request(url,event.request);  
-        event. respondWith(  
-            fetch(request)  
-        )  
-    }  
+&emsp;&emsp;"fetch",event => {  
+&emsp;&emsp;&emsp;&emsp;let url=new URL(event.request.url);  
+&emsp;&emsp;&emsp;&emsp;url.hostname="xx.herokuapp.com";//你的heroku域名    
+&emsp;&emsp;&emsp;&emsp;let request=new Request(url,event.request);  
+&emsp;&emsp;&emsp;&emsp;event. respondWith(  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;fetch(request)  
+&emsp;&emsp;&emsp;&emsp;)  
+&emsp;&emsp;}  
 )  
